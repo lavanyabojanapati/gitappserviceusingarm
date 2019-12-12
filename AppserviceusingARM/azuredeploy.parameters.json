@@ -1,0 +1,33 @@
+{
+  "$schema": "https://schema.management.azure.com/schemas/2015-01-01/deploymentParameters.json#",
+  "contentVersion": "1.0.0.0",
+  "parameters": {
+    "subscriptionId": {
+      "value": "8619a6cb-3910-48bf-b5e6-8f2a88ce845e"
+    },
+    "name": {
+      "value": "Appserviceusingarm"
+    },
+    "location": {
+      "value": "Central US"
+    },
+    "hostingEnvironment": {
+      "value": ""
+    },
+    "hostingPlanName": {
+      "value": "ASP-newrg-8d2d"
+    },
+    "serverFarmResourceGroup": {
+      "value": "newrg"
+    },
+    "alwaysOn": {
+      "value": true
+    },
+    "currentStack": {
+      "value": "dotnet"
+    },
+    "netFrameworkVersion": {
+      "value": "v4.0"
+    }
+  }
+}
